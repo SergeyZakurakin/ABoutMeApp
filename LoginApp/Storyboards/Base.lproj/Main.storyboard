@@ -86,7 +86,7 @@
                         <outlet property="loginButton" destination="ddu-02-1xB" id="FXg-s9-Qjf"/>
                         <outlet property="passwordTextField" destination="WfC-DW-6xa" id="O8G-BF-OfE"/>
                         <outlet property="userNameTextField" destination="HFh-Tt-z5O" id="6tB-WC-wxe"/>
-                        <segue destination="lV4-93-RA8" kind="presentation" identifier="welcomeSegue" id="Uj5-28-cFP"/>
+                        <segue destination="fBh-KE-Aaq" kind="presentation" identifier="welcomeSegue" modalPresentationStyle="fullScreen" id="Uj5-28-cFP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -98,11 +98,11 @@
             <objects>
                 <viewController id="lV4-93-RA8" customClass="WelcomeViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4u6-bP-wGg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zNB-DT-cta">
-                                <rect key="frame" x="145.33333333333334" y="444" width="84.666666666666657" height="34.333333333333314"/>
+                                <rect key="frame" x="145.33333333333334" y="449" width="84.666666666666657" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Log Out"/>
                                 <connections>
@@ -145,7 +145,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2u-WH-9rc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="jUU-F6-WgS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1996" y="3"/>
+            <point key="canvasLocation" x="2884" y="-412"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0v0-Hc-h73">
@@ -164,6 +164,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rP5-B9-VRe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="135" y="2"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="z9u-0j-8OD">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fBh-KE-Aaq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ihb-jv-9RA">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lV4-93-RA8" kind="relationship" relationship="viewControllers" id="qrJ-gV-qOB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5O9-Qb-Z9t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1996" y="2.9556650246305418"/>
         </scene>
     </scenes>
     <resources>
