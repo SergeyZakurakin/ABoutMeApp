@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2603662BDFF0C20057177E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2603652BDFF0C20057177E /* InfoViewController.swift */; };
+		DC2603682BDFF5EC0057177E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2603672BDFF5EC0057177E /* User.swift */; };
+		DC26036A2BE009AF0057177E /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2603692BE009AF0057177E /* BioViewController.swift */; };
 		DC418EFA2BDBC88E00A9D094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418EF92BDBC88E00A9D094 /* AppDelegate.swift */; };
 		DC418EFC2BDBC88E00A9D094 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418EFB2BDBC88E00A9D094 /* SceneDelegate.swift */; };
 		DC418EFE2BDBC88E00A9D094 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418EFD2BDBC88E00A9D094 /* LoginViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC2603652BDFF0C20057177E /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		DC2603672BDFF5EC0057177E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = LoginApp/ViewControllers/User.swift; sourceTree = SOURCE_ROOT; };
+		DC2603692BE009AF0057177E /* BioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
 		DC418EF62BDBC88E00A9D094 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC418EF92BDBC88E00A9D094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC418EFB2BDBC88E00A9D094 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +60,8 @@
 			children = (
 				DC418EFD2BDBC88E00A9D094 /* LoginViewController.swift */,
 				DC418F0D2BDBD69200A9D094 /* WelcomeViewController.swift */,
+				DC2603652BDFF0C20057177E /* InfoViewController.swift */,
+				DC2603692BE009AF0057177E /* BioViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -70,6 +78,7 @@
 		DC2603642BDFD78E0057177E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DC2603672BDFF5EC0057177E /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,10 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC26036A2BE009AF0057177E /* BioViewController.swift in Sources */,
 				DC418EFE2BDBC88E00A9D094 /* LoginViewController.swift in Sources */,
 				DC418F0E2BDBD69200A9D094 /* WelcomeViewController.swift in Sources */,
+				DC2603682BDFF5EC0057177E /* User.swift in Sources */,
 				DC418EFA2BDBC88E00A9D094 /* AppDelegate.swift in Sources */,
 				DC418EFC2BDBC88E00A9D094 /* SceneDelegate.swift in Sources */,
+				DC2603662BDFF0C20057177E /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
